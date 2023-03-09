@@ -151,7 +151,7 @@ ul#camisas-skate{
 }
 
 ul#camisas-skate li {
-   border-radius: 10px;
+   border-radius: 5px;
    float: left;
    width: 200px;
    height: 200px;
@@ -159,7 +159,10 @@ ul#camisas-skate li {
    margin-right: 100px;
    box-shadow: 1px 1px 3px rgba(0, 0, 0, .4);
 }
-
+ul#camisas-skate li:hover{
+   border-radius: 20px;
+   transition: .7s;
+}
 ul#camisas-skate li span{
    opacity: 0;
    color: #ffffff;
